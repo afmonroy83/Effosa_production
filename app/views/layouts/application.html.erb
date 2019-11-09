@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+  <head>
+    <title>EFFOSA</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700' %>
+    <%= stylesheet_link_tag 'https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+<header id="header" id="home">
+    <div class="container">
+      <div class="row header-top align-items-center">
+        <div class="col-lg-4 col-sm-4 menu-top-left">
+          <a class="tel" >emprendimientoculturaleffosa@gmail.com</a>
+        </div>
+        <div class="col-lg-4 menu-top-middle justify-content-center d-flex">
+        <a href="index.html">
+          <img class="img-fluid" src="#" alt="">
+        </a>
+        </div>
+        <div class="col-lg-4 col-sm-4 menu-top-right">
+          <a class="tel" >+57 313 4481897</a>
+        </div>
+      </div>
+    </div>
+      <hr>
+    <div class="container">
+      <div class="row align-items-center justify-content-center d-flex">
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="menu-active"><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Nosotros</a></li>
+           <!-- Start price Area  <li><a href="service.html">Service</a></li>
+            <li><a href="training.html">training</a></li>
+            <li><a href="events.html">events</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li class="menu-has-children"><a href="">Blog</a>
+            </li>
+           --> <li><a href="contact.html">Contactanos</a></li>
+          </ul>
+        </nav><!-- #nav-menu-container -->
+      </div>
+    </div>
+  </header><!-- #header -->
+    <%= yield %>
+    <!-- Start gallery Area -->
+  <section class="gallery-area">
+    <div class="container-fluid">
+      <div class="row no-padding">
+        <div class="active-gallery">
+          <div class="item single-gallery">
+              <div class="thumb">
+                  <img src="img/IMG_2398.jpg" height="160" alt="">
+                  <div class="align-items-center justify-content-center d-flex">
+                  </div>
+              </div>
+          </div>
+          <div class="item single-gallery">
+              <div class="thumb">
+                  <img src="img/IMG_2445.jpg" height="160" alt="">
+                  <div class="align-items-center justify-content-center d-flex">
+                  </div>
+              </div>
+          </div>
+          <div class="item single-gallery">
+              <div class="thumb">
+                  <img src="img/IMG_2697.jpg" height="160" alt="">
+                  <div class="align-items-center justify-content-center d-flex">
+                  </div>
+              </div>
+          </div>
+          <div class="item single-gallery">
+              <div class="thumb">
+                  <img src="img/IMG_2510.jpg" height="160" alt="">
+                  <div class="align-items-center justify-content-center d-flex">
+                  </div>
+              </div>
+          </div>
+          <div class="item single-gallery">
+              <div class="thumb">
+                  <img src="img/IMG_2582.jpg" height="160" alt="">
+                  <div class="align-items-center justify-content-center d-flex">
+                  </div>
+              </div>
+          </div>
+          <div class="item single-gallery">
+              <div class="thumb">
+                  <img src="img/IMG_2464.jpg" height="160" alt="">
+                  <div class="align-items-center justify-content-center d-flex">
+                  </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End gallery Area -->
+
+  <!-- start footer Area -->
+  <footer class="footer-area section-gap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3  col-md-6 col-sm-6">
+          <div class="single-footer-widget">
+            <h4>Nosotros</h4>
+            <p>
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4  col-md-6 col-sm-6">
+          <div class="single-footer-widget">
+            <h4>Contactenos</h4>
+            <p>
+                              </p>
+            <p class="number">
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-5  col-md-6 col-sm-6">
+          <div class="single-footer-widget">
+            <h4>Newsletter</h4>
+            <p>You can trust us. we only send  offers, not a single spam.</p>
+            <div class="d-flex flex-row" id="mc_embed_signup">
+
+
+                <form class="navbar-form" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
+                  <div class="input-group add-on align-items-center d-flex">
+                      <input class="form-control" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required="" type="email">
+                  <div style="position: absolute; left: -5000px;">
+                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                  </div>
+                    <div class="input-group-btn">
+                      <button class="genric-btn"><span class="lnr lnr-arrow-right"></span></button>
+                    </div>
+                  </div>
+                    <div class="info mt-20"></div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom row">
+        <p class="footer-text m-0 col-lg-6 col-md-12">
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </p>
+        <div class="footer-social col-lg-6 col-md-12">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-dribbble"></i></a>
+          <a href="#"><i class="fa fa-behance"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End footer Area -->
+  </body>
+</html>
