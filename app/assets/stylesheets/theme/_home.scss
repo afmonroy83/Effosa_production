@@ -97,7 +97,7 @@
 //--------- Start Banner Area -------------//
 
 .banner-area {
-	background:url(../img/header-bg.jpg) center;
+	background:image-url("img2.JPG") center;
 	background-size:cover;
 	.fullscreen {
 		@include media-breakpoint-down (sm) {
@@ -619,6 +619,7 @@
 //-------- Start Footer Style ----------//
 
 .footer-area{
+	color:#767676cc;
 	background-color:$white;
 	h4{
 		padding-bottom:30px;
