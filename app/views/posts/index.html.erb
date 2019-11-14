@@ -112,8 +112,11 @@
     </a>
   </div>
 </section> -->
-<h1>Posts</h1>
+<% if signed_in? %>
+
+<h1>Todos los Posts</h1>
 
 <%= link_to 'Añadir Articulo', new_post_path %>
 
 <%= render @posts %>
+<% end %>

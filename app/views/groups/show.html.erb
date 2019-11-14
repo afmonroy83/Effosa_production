@@ -1,19 +1,24 @@
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @group.title %>
-</p>
+  <!-- start banner Area -->
+      <section class="banner-area relative" id="home">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+          <div class="row d-flex align-items-center justify-content-center">
+            <div class="about-content col-lg-12">
+              <h1 class="text-white">
+                Grupo
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End banner Area -->
 
-<p>
-  <strong>Body:</strong>
-  <%= @group.body %>
-</p>
 
-<p>
-  <strong>Links:</strong>
-  <%= @group.links %>
-</p>
+<h1><%= @group.title %></h1>
 
-<%= link_to 'Edit', edit_group_path(@group) %> |
-<%= link_to 'Back', groups_path %>
+<%# <%= image_tag(@group.image.url, alt: 'Image') if @group.image? %> %>
+
+<p><%= @group.body %></p>
+
+<p><%= link_to 'Editar', edit_group_path(@group) %></p>

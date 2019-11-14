@@ -17,3 +17,13 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+(function() {
+  var ready;
+
+  ready = function() {};
+
+  $(document).ready(ready);
+
+  $(document).on('page:load', ready);
+
+}).call(this);

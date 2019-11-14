@@ -18,7 +18,8 @@
           <a class="tel" >emprendimientoculturaleffosa@gmail.com</a>
         </div>
         <div class="col-lg-4 menu-top-middle justify-content-center d-flex">
-        <a href="index.html">
+        <a href=''>
+          <%= image_tag 'LOGOEFFOSA.png', {class: 'img-fluid', style: 'width: 100px'} %>
           <img class="img-fluid" src="#" alt="">
         </a>
         </div>
@@ -34,7 +35,7 @@
           <ul class="nav-menu">
             <li class="menu-active"><%= link_to "Inicio", posts_path %></li>
             <li> <%= link_to "Nosotros",  nosotros_path %></li>
-            <li> <%= link_to "Grupos",  posts_path %></li>
+            <li> <%= link_to "Grupos",  groups_path %></li>
            <!-- Start price Area  <li><a href="service.html">Service</a></li>
             <li><a href="training.html">training</a></li>
             <li><a href="events.html">events</a></li>
@@ -48,7 +49,7 @@
     </div>
   </header><!-- #header -->
     <%= yield %>
-    <!-- Start gallery Area 
+    <!-- Start gallery Area
   <section class="gallery-area">
     <div class="container-fluid">
       <div class="row no-padding">
@@ -102,7 +103,7 @@
   </section>
  End gallery Area -->
 
-<!-- start footer Area -->    
+<!-- start footer Area -->
       <footer class="footer-area section-gap">
         <div class="container">
           <div class="row">
@@ -110,7 +111,7 @@
               <div class="single-footer-widget">
                 <h4>Nosotros</h4>
                 <p>
-                  
+
                 </p>
               </div>
             </div>
@@ -118,13 +119,13 @@
               <div class="single-footer-widget">
                 <h4>Contactenos</h4>
                 <p>
-                  
+
                 </p>
                 <p class="number">
                   +57 313 4481897 <br>
                 </p>
               </div>
-            </div>            
+            </div>
             <div class="col-lg-5  col-md-6 col-sm-6">
               <div class="single-footer-widget">
                 <h4>Noticias</h4>
@@ -141,11 +142,11 @@
                           <button class="genric-btn"><span class="lnr lnr-arrow-right"></span></button>
                         </div>
                       </div>
-                        <div class="info mt-20"></div>                      
+                        <div class="info mt-20"></div>
                     </form>
                 </div>
               </div>
-            </div>            
+            </div>
           </div>
           <div class="footer-bottom row">
             <p class="footer-text m-0 col-lg-6 col-md-12">
@@ -155,12 +156,11 @@ Copyright &copy;2020
             <div class="footer-social col-lg-6 col-md-12">
               <a href="#"><i class="fa fa-facebook"></i></a>
               <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-dribbble"></i></a>
-              <a href="#"><i class="fa fa-behance"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
             </div>
           </div>
         </div>
-      </footer> 
+      </footer>
       <!-- End footer Area -->
   </body>
 </html>
