@@ -16,7 +16,7 @@
       <div class="row header-top align-items-center">
         <div class="col-lg-4 col-sm-4 menu-top-left">
           <a class="tel" >emprendimientoculturaleffosa@gmail.com</a>
-          <button type="submit" class="primary-btn mt-20 text-white" style="float: right;">Comunicate para donar</button>
+          <button type="submit" class="primary-btn mt-20 text-white" style="float: right;" id="donar"><%= link_to "Comunicate para donar",  contactanos_path %></button>
         </div>
         <div class="col-lg-4 menu-top-middle justify-content-center d-flex">
         <a href=''>
@@ -43,7 +43,8 @@
             <li><a href="pricing.html">Pricing</a></li>
             <li class="menu-has-children"><a href="">Blog</a>
             </li>
-           --> <li> <%= link_to "Contactanos",  contactanos_path %></li>
+           -->
+           <li id="Contactanos"> <%= link_to "Contactanos",  contactanos_path %></li>
           </ul>
         </nav><!-- #nav-menu-container -->
       </div>
